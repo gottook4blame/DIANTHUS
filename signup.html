@@ -47,7 +47,7 @@
                             </a>
                         </div>
                         <div class="login-form">
-                           <form action="" method="post">
+                          <!-- <form action="" method="post">
                                 <div class="form-group">
                                     <label>Email Address</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
@@ -65,15 +65,31 @@
                                 <a href="index.html">sign up</a>
                                 </button>
                                 <input type="button" onclick="index.html"/>
-                                <!-- INSERT LINK TO DASHBOARD HERE -->
+                                INSERT LINK TO DASHBOARD HERE 
                                 <div class="social-login-content">
                                     <div class="social-button">
                                         <button class="au-btn au-btn--block au-btn--blue m-b-20">sign up with facebook</button>
                                         <button class="au-btn au-btn--block au-btn--blue2">sign up with twitter</button>
                                     </div>
                                 </div>
-                            </form> 
+                            </form> -->
+                            <div id="firebaseui-auth-container"></div>
+                             <div id="loader">Loading...</div>
+
+                            <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+                            <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+                            <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
+                            <!--Loads the log-in UI provided by firebase-->
+                            <script src="./js/load-firebase.js"></script>
+                            <script src="./js/signup-ui.js"></script>
                             <div class="register-link">
+                            <div class="register-link">
+                                <h5>What user are you?</h5>
+
+                                    <button type="button" onclick="alert('registered')">Parent</button>
+                                    <button type="button" onclick="alert('registered')">         </button>
+                                    <button type="button" onclick="alert('registered')">Care Giver</button>
                                 <p>
                                     Copyright © 2020 Dianthus. Helping kids bloom.
                                 </p>
