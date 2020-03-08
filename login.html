@@ -89,7 +89,33 @@
         </div>
 
     </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBBFX51zVi6N0a1F_Li-clF00Ta1q_AqJE",
+    authDomain: "dianthus-dabf4.firebaseapp.com",
+    databaseURL: "https://dianthus-dabf4.firebaseio.com",
+    projectId: "dianthus-dabf4",
+    appId: "1:269507538074:web:c78f4dba0d4ad2d6680323"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  // make auth and firestore references
+const auth = firebase.auth();
+const db = firebase.firestore();
+
+// update firestore setting
+db.settings({ timestampsINSnapshots: true});
+
+</script>
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
