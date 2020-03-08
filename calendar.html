@@ -81,10 +81,10 @@
                                     <a href="index.html">My Profile</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Add New Long Entry</a>
+                                    <a href="logentries.html">Add New Log Entry</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Appointments</a>
+                                    <a href="calendar.html">Appointments</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">Settings</a>
@@ -93,7 +93,7 @@
                         </li>
                         <li>
                             <a href="studentprofile.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fas fa-chart-bar"></i>Students' Profiles</a>
                         </li>
                         <li>
                             <a href="logentries.html">
@@ -106,10 +106,6 @@
                         <li>
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -189,10 +185,10 @@
                                     <a href="index.html">My Profile</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Add New Long Entry</a>
+                                    <a href="logentries.html">Add New Log Entry</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Appointments</a>
+                                    <a href="calendar.html">Appointments</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">Settings</a>
@@ -201,7 +197,7 @@
                         </li>
                         <li>
                             <a href="studentprofile.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fas fa-chart-bar"></i>Students' Profiles</a>
                         </li>
                         <li>
                             <a href="logentries.html">
@@ -214,10 +210,6 @@
                         <li class="active">
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -287,7 +279,7 @@
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for event" />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -436,10 +428,6 @@
                                                     <a href="#">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
-                                                <div class="account-dropdown__item">
-                                                    <a href="#">
-                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                                </div>
                                             </div>
                                             <div class="account-dropdown__footer">
                                                 <a href="#">
@@ -469,7 +457,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright © 2020 Dianthus. Helping kids bloom.</p>
                                 </div>
                             </div>
                         </div>
@@ -512,7 +500,7 @@ $(function() {
   // for now, there is something adding a click handler to 'a'
   var tues = moment().day(2).hour(19);
 
-  // build trival night events for example data
+  // build trivia night events for example data
   var events = [
     {
       title: "Special Conference",
@@ -533,7 +521,7 @@ $(function() {
     var n = tues.clone().add(i, 'weeks');
     console.log("isoString: " + n.toISOString());
     trivia_nights.push({
-      title: 'Trival Night @ Pub XYZ',
+      title: 'Trivia Night @ Pub XYZ',
       start: n.toISOString(),
       allDay: false,
       url: '#'

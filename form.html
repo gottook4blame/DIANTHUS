@@ -64,10 +64,10 @@
                                     <a href="index.html">My Profile</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Add New Long Entry</a>
+                                    <a href="logentries.html">Add New Log Entry</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Appointments</a>
+                                    <a href="calendar.html">Appointments</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">Settings</a>
@@ -76,7 +76,7 @@
                         </li>
                         <li>
                             <a href="studentprofile.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fas fa-chart-bar"></i>Students' Profiles</a>
                         </li>
                         <li>
                             <a href="logentries.html">
@@ -90,13 +90,9 @@
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-copy"></i>Pages</a>
+                                <i class="fas fa-copy"></i>Switch Account</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
                                     <a href="login.html">Login</a>
@@ -172,10 +168,10 @@
                                     <a href="index.html">My Profile</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">Add New Long Entry</a>
+                                    <a href="logentries.html">Add New Log Entry</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">Appointments</a>
+                                    <a href="calendar.html">Appointments</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">Settings</a>
@@ -184,7 +180,7 @@
                         </li>
                         <li>
                             <a href="studentprofile.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                                <i class="fas fa-chart-bar"></i>Students' Profiles</a>
                         </li>
                         <li>
                             <a href="logentries.html">
@@ -197,10 +193,6 @@
                         <li>
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -270,7 +262,7 @@
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search by student" />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -419,10 +411,6 @@
                                                     <a href="#">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
-                                                <div class="account-dropdown__item">
-                                                    <a href="#">
-                                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                                </div>
                                             </div>
                                             <div class="account-dropdown__footer">
                                                 <a href="#">
@@ -445,42 +433,42 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="card">
-                                    <div class="card-header">Credit Card</div>
+                                    <div class="card-header">Medical Information</div>
                                     <div class="card-body">
                                         <div class="card-title">
-                                            <h3 class="text-center title-2">Pay Invoice</h3>
+                                            <h3 class="text-center title-2">Medication + History</h3>
                                         </div>
                                         <hr>
                                         <form action="" method="post" novalidate="novalidate">
                                             <div class="form-group">
-                                                <label for="cc-payment" class="control-label mb-1">Payment amount</label>
-                                                <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false" value="100.00">
+                                                <label for="cc-payment" class="control-label mb-1">Medical Conditions</label>
+                                                <input id="cc-pament" name="cc-payment" type="text" class="form-control" aria-required="true" aria-invalid="false">
                                             </div>
                                             <div class="form-group has-success">
-                                                <label for="cc-name" class="control-label mb-1">Name on card</label>
-                                                <input id="cc-name" name="cc-name" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
+                                                <label for="cc-name" class="control-label mb-1">Additional Care Notes</label>
+                                                <input id="cc-name" name="cc-name" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Enter N/A for none"
                                                     autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name-error">
                                                 <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
                                             </div>
                                             <div class="form-group">
-                                                <label for="cc-number" class="control-label mb-1">Card number</label>
+                                                <label for="cc-number" class="control-label mb-1">Medications and Relevant Instructions</label>
                                                 <input id="cc-number" name="cc-number" type="tel" class="form-control cc-number identified visa" value="" data-val="true"
-                                                    data-val-required="Please enter the card number" data-val-cc-number="Please enter a valid card number"
+                                                    data-val-required="Enter N/A for none" data-val-cc-number="Please enter a valid card number"
                                                     autocomplete="cc-number">
                                                 <span class="help-block" data-valmsg-for="cc-number" data-valmsg-replace="true"></span>
                                             </div>
                                             <div class="row">
                                                 <div class="col-6">
                                                     <div class="form-group">
-                                                        <label for="cc-exp" class="control-label mb-1">Expiration</label>
+                                                        <label for="cc-exp" class="control-label mb-1">Medication Expiry</label>
                                                         <input id="cc-exp" name="cc-exp" type="tel" class="form-control cc-exp" value="" data-val="true" data-val-required="Please enter the card expiration"
-                                                            data-val-cc-exp="Please enter a valid month and year" placeholder="MM / YY"
+                                                            data-val-cc-exp="Please enter a valid month and year" placeholder="MM / DD / YY"
                                                             autocomplete="cc-exp">
                                                         <span class="help-block" data-valmsg-for="cc-exp" data-valmsg-replace="true"></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-6">
-                                                    <label for="x_card_code" class="control-label mb-1">Security code</label>
+                                                    <label for="x_card_code" class="control-label mb-1">Time to administer</label>
                                                     <div class="input-group">
                                                         <input id="x_card_code" name="x_card_code" type="tel" class="form-control cc-cvc" value="" data-val="true" data-val-required="Please enter the security code"
                                                             data-val-cc-cvc="Please enter a valid security code" autocomplete="off">
@@ -490,8 +478,7 @@
                                             </div>
                                             <div>
                                                 <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
-                                                    <i class="fa fa-lock fa-lg"></i>&nbsp;
-                                                    <span id="payment-button-amount">Pay $100.00</span>
+                                                    <span id="payment-button-amount">Submit</span>
                                                     <span id="payment-button-sending" style="display:none;">Sending…</span>
                                                 </button>
                                             </div>
@@ -502,17 +489,17 @@
                             <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <strong>Company</strong>
+                                        <strong>Personal Info</strong>
                                         <small> Form</small>
                                     </div>
                                     <div class="card-body card-block">
                                         <div class="form-group">
-                                            <label for="company" class=" form-control-label">Company</label>
-                                            <input type="text" id="company" placeholder="Enter your company name" class="form-control">
+                                            <label for="company" class=" form-control-label">Name</label>
+                                            <input type="text" id="company" placeholder="Enter your child's name" class="form-control">
                                         </div>
                                         <div class="form-group">
-                                            <label for="vat" class=" form-control-label">VAT</label>
-                                            <input type="text" id="vat" placeholder="DE1234567890" class="form-control">
+                                            <label for="vat" class=" form-control-label">Age</label>
+                                            <input type="text" id="vat" placeholder="Enter age" class="form-control">
                                         </div>
                                         <div class="form-group">
                                             <label for="street" class=" form-control-label">Street</label>
@@ -533,13 +520,19 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="country" class=" form-control-label">Country</label>
-                                            <input type="text" id="country" placeholder="Country name" class="form-control">
+                                            <label for="country" class=" form-control-label">Email</label>
+                                            <input type="text" id="country" placeholder="Enter your email" class="form-control">
                                         </div>
+                                         <div>
+                                                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                                                    <span id="payment-button-amount">Submit</span>
+                                                    <span id="payment-button-sending" style="display:none;">Sending…</span>
+                                                </button>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <!-- <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <strong>Basic Form</strong> Elements
@@ -1464,7 +1457,7 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
