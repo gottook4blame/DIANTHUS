@@ -1,6 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -12,6 +13,12 @@
     <!-- Title Page-->
     <title>Login</title>
 
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase.js"></script>
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -32,6 +39,8 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
 
 </head>
 
@@ -47,7 +56,7 @@
                             </a>
                         </div>
                         <div class="login-form">
-                            <form action="" method="post">
+                            <!-- <form action="" method="post">
                                 <div class="form-group">
                                     <label>Email Address</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
@@ -68,14 +77,26 @@
                                 <a href="index.html">sign in</a>
                                 </button>
                                 <input type="button" onclick="index.html"/>
-                                <!-- INSERT LINK TO DASHBOARD HERE -->
+                            
+                                 INSERT LINK TO DASHBOARD HERE 
                                 <div class="social-login-content">
                                     <div class="social-button">
                                         <button class="au-btn au-btn--block au-btn--blue m-b-20">sign in with facebook</button>
                                         <button class="au-btn au-btn--block au-btn--blue2">sign in with twitter</button>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
+                            
+                            <div id="firebaseui-auth-container"></div>
+                             <div id="loader">Loading...</div>
+
+                            <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+                            <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+                            <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+
+                            <!--Loads the log-in UI provided by firebase-->
+                            <script src="./js/load-firebase.js"></script>
+                            <script src="./js/login-ui.js"></script>
                             <div class="register-link">
                                 <p>
                                     Don't have an account?
@@ -96,7 +117,7 @@
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
+<!--<script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyBBFX51zVi6N0a1F_Li-clF00Ta1q_AqJE",
@@ -114,7 +135,7 @@ const db = firebase.firestore();
 
 // update firestore setting
 // db.settings({ timestampsINSnapshots: true});
-
+-->
 </script>
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
