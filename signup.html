@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Login</title>
+    <title>Signup</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -53,33 +53,29 @@
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <label>Password</label>
-                                    <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
+                                    <label>Create a Password</label>
+                                    <input class="au-input au-input--full" type="password" name="password" placeholder="Minimum 8-digit Password">
                                 </div>
                                 <div class="login-checkbox">
                                     <label>
                                         <input type="checkbox" name="remember">Remember Me
                                     </label>
-                                    <label>
-                                        <a href="#">Forgotten Password?</a>
-                                    </label>
                                 </div>
                                 <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">
-                                <a href="index.html">sign in</a>
+                                <a href="index.html">sign up</a>
                                 </button>
                                 <input type="button" onclick="index.html"/>
                                 <!-- INSERT LINK TO DASHBOARD HERE -->
                                 <div class="social-login-content">
                                     <div class="social-button">
-                                        <button class="au-btn au-btn--block au-btn--blue m-b-20">sign in with facebook</button>
-                                        <button class="au-btn au-btn--block au-btn--blue2">sign in with twitter</button>
+                                        <button class="au-btn au-btn--block au-btn--blue m-b-20">sign up with facebook</button>
+                                        <button class="au-btn au-btn--block au-btn--blue2">sign up with twitter</button>
                                     </div>
                                 </div>
                             </form>
                             <div class="register-link">
                                 <p>
-                                    Don't have an account?
-                                    <a href="signup.html">Sign Up Here</a>
+                                    Copyright © 2020 Dianthus. Helping kids bloom.
                                 </p>
                             </div>
                         </div>
@@ -89,33 +85,7 @@
         </div>
 
     </div>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBBFX51zVi6N0a1F_Li-clF00Ta1q_AqJE",
-    authDomain: "dianthus-dabf4.firebaseapp.com",
-    databaseURL: "https://dianthus-dabf4.firebaseio.com",
-    projectId: "dianthus-dabf4",
-    appId: "1:269507538074:web:c78f4dba0d4ad2d6680323"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-
-  // make auth and firestore references
-const auth = firebase.auth();
-const db = firebase.firestore();
-
-// update firestore setting
-// db.settings({ timestampsINSnapshots: true});
-
-</script>
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
