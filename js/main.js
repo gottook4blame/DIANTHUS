@@ -1164,7 +1164,7 @@
         type: 'polarArea',
         data: {
           datasets: [{
-            data: [15, 18, 9, 6, 19],
+            data: [15, 18, 9, 6, 19, 10],
             backgroundColor: [
               "rgba(0, 123, 255,0.9)",
               "rgba(0, 123, 255,0.8)",
@@ -1175,10 +1175,12 @@
 
           }],
           labels: [
-            "Green",
-            "Green",
-            "Green",
-            "Green"
+            "Measured Intelligence",
+            "Social Interaction",
+            "Communication",
+            "Behaviours",
+            "Sensory Response",
+            "Motor Skills",
           ]
         },
         options: {
