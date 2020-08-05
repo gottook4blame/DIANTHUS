@@ -1,103 +1,20 @@
-CoolAdmin Bootstrap 4.1 Admin Dashboard Template
-================================================
+![dianthUS](images/dianthus-logo-background.png)
 
-**CoolAdmin** is a responsive Bootstrap 4.1 admin template. It provides you with
-a collection of ready to use code snippets and utilities, custom pages, loads of
-charts, 4 different dashboard variations, a collection of applications and some
-useful widgets. Preview of this awesome admin template available here:
-https://colorlib.com/polygon/cooladmin/index.html
+## Inspiration
+Our team has extensive experience working with children with special needs, especially those on the autism spectrum. Often, the biggest barrier to being an effective teacher or caregiver is lack of information about the particular child, since each child's needs are highly specific and unique. For example, when new caregivers take over, the child transfers facilities, or current caregivers are not able to come in for a day, communication is vital to ensuring quality care for their specific needs. This information is currently passed on by word-of-mouth (however, it is not always possible to talk with the parents or previous caregiver) or through a physical note (which can be easily misplaced, or missing important information).
 
-Preview
-=======
+Thus, we created an application to address these problems.We named it after the Dianthus flower: a beautiful flower that sometimes needs a bit of extra care to grow and thrive.
 
-### Screenshot
+## What it does
+DianthUS allows parents and teachers/caregivers to create accounts, through which they can create and manage student profiles. Each student profile includes a child's tendencies, needs, abilities, triggers, and other relevant information that the child may not be able to tell an adult verbally. This information includes a historical logbook where parents and caregivers can record the child’s progress, milestones or any incidents. The application also allows for messaging between parents and teachers, allowing for instant communication.
 
-![CoolAdmin admin dashboard template preview](media/9606031aabebde32fa96edeff071a132.jpg)
+## How we built it
+DianthUS was built in Visual Studio Code using HTML, CSS, JavaScript, a Bootstrap, and FireBase API. For version control we used Github and Github Desktop. We collaboratively divided up the work in terms of front-end, back-end, firebase ui and overall design (logo, slogan, etc.). We had a task document that was updated every hour or two hours in order to keep us on track and provide deliverables. 
 
-CoolAdmin admin dashboard template preview
+## Images
+![Dashboard](images/demo/dashboard.png)
+![Appointments](images/demo/appointments.png)
+![Logbook](images/demo/logbook.png)
 
-### Demo Site: [[Here]](https://colorlib.com/polygon/cooladmin/index.html)
+Created with the CoolAdmin Bootstrap 4.1 Admin Dashboard Template by [ColorLib](https://colorlib.com/)
 
-### TOC
-
--   [Built With](#built-with)
-
--   [Changelog](#changelog)
-
--   [Authors](#authors)
-
--   [License](#license)
-
-### Built With
-
--   [Accordion.JS](https://github.com/awps/Accordion.JS)
-
--   [animsition](http://blivesta.github.io/animsition)
-
--   [bootstrap-progressbar](https://github.com/minddust/bootstrap-progressbar)
-
--   [Bootstrap](http://getbootstrap.com/)
-
--   [Chart.js](http://www.chartjs.org/)
-
--   [Counter-Up](https://github.com/bfintal/Counter-Up)
-
--   [CSS Hamburgers](https://github.com/jonsuh/hamburgers)
-
--   [Full Calendar](https://fullcalendar.io)
-
--   [Fontawesome](http://fontawesome.io/)
-
--   [jquery-circle-progress](http://kottenator.github.io/jquery-circle-progress/)
-
--   [jQuery](https://jquery.com/)
-
--   [Date picker](https://www.jqueryscript.net/time-clock/Date-Time-Picker-Bootstrap-4.html)
-
--   [JQVMap](https://jqvmap.com/)
-
--   [Lightbox2](https://github.com/lokesh/lightbox2)
-
--   [Material Design
-    Icons](https://github.com/Templarian/MaterialDesign-Webfont)
-
--   [perfect-scrollbar](https://github.com/utatti/perfect-scrollbar)
-
--   [ProgressBar.js](https://github.com/kimmobrunfeldt/progressbar.js)
-
--   [Select2](https://github.com/select2/select2)
-
--   [Slick](http://kenwheeler.github.io/slick/)
-
--   [Sweetalwer](https://github.com/sweetalert2/sweetalert2)
-
--   [The Final Countdown for jQuery](http://hilios.github.io/jQuery.countdown/)
-
--   [WOW](https://github.com/matthieua/WOW)
-
-### Changelog
-
-#### V 1.0.0
-
-Initial Release \#\#\# Authors [Colorlib](https://colorlib.com)
-
-### More info
-
--   [Bootstrap
-    dashboards](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/)
-
--   [Angular dashboards](https://colorlib.com/wp/angularjs-admin-templates/)
-
--   [Free Admin
-    Dashboards](https://colorlib.com/wp/free-html5-admin-dashboard-templates/)
-
--   [Website Templates](https://colorlib.com/wp/templates/)
-
--   [Free WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/)
-
-### License
-
-CoolAdmin is licensed under The MIT License (MIT). Which means that you can use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
-final products. But you always need to state that Colorlib is the original
-author of this template.
