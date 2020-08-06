@@ -1,4 +1,4 @@
-![dianthUS](images/dianthus-logo-background.png)
+![dianthUS](images/dianthus-logo-white-background.png)
 
 ## Inspiration
 Our team has extensive experience working with children with special needs, especially those on the autism spectrum. Often, the biggest barrier to being an effective teacher or caregiver is lack of information about the particular child, since each child's needs are highly specific and unique. For example, when new caregivers take over, the child transfers facilities, or current caregivers are not able to come in for a day, communication is vital to ensuring quality care for their specific needs. This information is currently passed on by word-of-mouth (however, it is not always possible to talk with the parents or previous caregiver) or through a physical note (which can be easily misplaced, or missing important information).
