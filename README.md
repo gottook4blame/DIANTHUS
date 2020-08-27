@@ -8,6 +8,9 @@ Thus, we created an application to address these problems.We named it after the 
 ## What it does
 DianthUS allows parents and teachers/caregivers to create accounts, through which they can create and manage student profiles. Each student profile includes a child's tendencies, needs, abilities, triggers, and other relevant information that the child may not be able to tell an adult verbally. This information includes a historical logbook where parents and caregivers can record the child’s progress, milestones or any incidents. The application also allows for messaging between parents and teachers, allowing for instant communication.
 
+## Usage
+Open the ```index.html``` file in a web browser (preferably chrome or firefox).
+
 ## How we built it
 DianthUS was built in Visual Studio Code using HTML, CSS, JavaScript, a Bootstrap, and FireBase API. For version control we used Github and Github Desktop. We collaboratively divided up the work in terms of front-end, back-end, firebase ui and overall design (logo, slogan, etc.). We had a task document that was updated every hour or two hours in order to keep us on track and provide deliverables. 
 
